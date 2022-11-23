@@ -3,10 +3,13 @@
 
 <Project Setup>
 
-Install scoop from www.scoop.sh
-Install allure commandline by running the following command:
+Install htmlreport commandline by running the following command:
 
-<scoop install allure>
+<pip install pytest-html>
+A file will be created in your directory. <htmlreport>
+copy the file path
+Open the path of the file copied in a browser, to get the HTML report.
+
 
 .git clone
 .cd to project directory
@@ -20,7 +23,7 @@ py -m venv env
 
 Running Test
 
-<pipenv run pytest --alluredir=allure-results --browser <browser>
+<>
 
 View Help And Custom CLI Options
 pytest --help
