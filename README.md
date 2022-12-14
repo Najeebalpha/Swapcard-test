@@ -23,7 +23,9 @@ py -m venv env
 <\env\Scripts\activate>
 
 Running Test
-
+<allure generat> to create a directory for results and logs.
+<Pytest- file name -- alluredir= name of the report folder> To run the test and generate report at the same time.
+<allure serve <name of the directory> to view the result on the web page 
 <>
 
 View Help And Custom CLI Options
